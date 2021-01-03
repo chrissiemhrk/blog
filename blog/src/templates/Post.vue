@@ -57,7 +57,7 @@ query Post ($path: String!) {
   padding: 10px 20px;
   margin: 0 0 20px;
   font-size: 17.5px;
-  border-left: 5px solid #eee;
+  border-left: 5px solid #00835c;
 }
 
 .article table {
@@ -68,11 +68,11 @@ query Post ($path: String!) {
 
 .article th {
   vertical-align: bottom;
-  border-bottom: 2px solid #ddd;
+  border-bottom: 2px solid #00835c;
 }
 
 .article td {
-  border-top: 1px solid #ddd;
+  border-top: 1px solid #00835c;
   padding: 8px;
   line-height: 1.42857143;
   vertical-align: top;
