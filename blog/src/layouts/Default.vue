@@ -262,7 +262,7 @@ body {
   font-size: 0.9rem;
   background-color: #ececec;
   color: #222222;
-  border: 0.4rem solid #00835c;
+  border-top: 0.7rem solid #00835c;
 }
 
 .layout {
