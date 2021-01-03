@@ -34,7 +34,7 @@ export default {
 
 <style>
 .about {
-  margin-top: 5rem;
+  margin-top: 5.5rem;
   margin-bottom: 7rem;
   display: flex;
   justify-content: space-between;
@@ -42,7 +42,7 @@ export default {
 
 .about-text {
   margin: auto;
-  font-size: 1.1rem;
+  font-size: 1.01rem;
   text-align: justify;
 }
 
