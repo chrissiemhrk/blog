@@ -17,9 +17,9 @@
           walks.
         </p>
       </div>
-      <div class="me">
+      <!-- <div class="me">
         <img src="../favicon.png" alt="Picrew image of Chrissie" />
-      </div>
+      </div> -->
     </section>
   </Layout>
 </template>
