@@ -35,16 +35,19 @@ export default {
 <style>
 .about {
   margin-top: 5rem;
-  margin-bottom: 7.1rem;
+  margin-bottom: 7rem;
   display: flex;
   justify-content: space-between;
 }
 
 .about-text {
   margin: auto;
+  font-size: 1.1rem;
+  text-align: justify;
 }
+
 .title {
-  font-size: 3rem;
+  font-size: 2rem;
 }
 
 img {
