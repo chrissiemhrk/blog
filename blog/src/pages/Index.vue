@@ -1,58 +1,53 @@
 <template>
   <Layout>
-    <section class="posts">
-      <PostList v-for="year in years" :key="year" :year="year" />
+    <section class="about">
+      <div class="about-text">
+        <h1 class="title">Hi, I'm Chrissie</h1>
+        <p>I'm a front-end web developer from Kigali, Rwanda.</p>
+        <p>
+          Currently, I'm part of an incredible team at Hacksplash and learning
+          user interface design. In addition, I'm the co-lead of the Google
+          developer student club (DSC) chapter of my university and working
+          towards a bachelor in software engineering.
+        </p>
+        <p>
+          I love writing and have published articles online on Dev and my
+          personal website. Apart from that I also enjoy reading both
+          non-fiction and fiction,watching crime dramas and anime, and evening
+          walks.
+        </p>
+      </div>
+      <div class="me">
+        <img src="../favicon.png" alt="Picrew image of Chrissie" />
+      </div>
     </section>
   </Layout>
 </template>
 
 <script>
-import PostList from "@/components/PostList";
 export default {
-  components: {
-    PostList,
-  },
   metaInfo: {
-    title: "A simple blog"
+    title: "About",
   },
-  computed: {
-    years() {
-      const years = {};
-      const posts = this.$page.allPost.edges;
-      posts.map((post) => {
-        const year = post.node.date.split(" ")[2];
-        years[year] = "";
-      });
-      return Object.keys(years).sort((a, b) => {
-        return b - a;
-      });
-    }
-  }
 };
 </script>
 
-<page-query>
-query {
-  metadata {
-    siteName
-    siteDescription
-  }
-  allPost(filter: { date: { gte: "2020" }}) {
-    totalCount
-    edges {
-      node {
-        id
-        title
-        timeToRead
-        description
-        date (format: "MMM D YYYY")
-        path
-      }
-    }
-
-  }
-}
-</page-query>
-
 <style>
+.about {
+  margin-top: 5rem;
+  margin-bottom: 7.1rem;
+  display: flex;
+  justify-content: space-between;
+}
+
+.about-text {
+  margin: auto;
+}
+.title {
+  font-size: 3rem;
+}
+
+img {
+  width: 22rem;
+}
 </style>
