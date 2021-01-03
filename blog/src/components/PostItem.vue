@@ -1,8 +1,13 @@
 <template>
   <div class="post-item">
-    <span class="date">{{date}}</span>
-    <g-link :to="post.path" class="read">{{post.title}}</g-link>
-    <span class="time-to-read"><i>{{post.timeToRead}} min read</i></span>
+    <g-link :to="post.path" class="read">{{ post.title }}</g-link>
+    <div class="date-time">
+      <span class="date">{{ date }}</span>
+
+      <span class="time-to-read"
+        ><i>{{ post.timeToRead }} min read</i></span
+      >
+    </div>
   </div>
 </template>
 
@@ -12,20 +17,36 @@ export default {
   computed: {
     date() {
       return this.post.date.substring(0, this.post.date.length - 4);
-    }
-  }
+    },
+  },
 };
 </script>
 
 <style>
+.post-item {
+  margin-left: 5rem;
+  margin-bottom: 1.2rem;
+  display: flex;
+  flex-direction: column;
+}
+
+.date-time {
+  margin-top: 0.5rem;
+  font-size: 0.8rem;
+}
+
+.read {
+  font-size: 1.09rem;
+}
+
 .date {
-  margin-right:10px;
+  margin-right: 10px;
   min-width: 60px;
-  display:inline-block;
+  display: inline-block;
 }
 .time-to-read {
-  margin-left:10px;
-  color:gray;
-  font-size:.8em;
+  margin-left: 1px;
+  color: gray;
+  font-size: 0.8rem;
 }
 </style>
