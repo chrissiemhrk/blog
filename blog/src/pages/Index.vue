@@ -34,15 +34,14 @@ export default {
 
 <style>
 .about {
-  margin-top: 5.5rem;
-  margin-bottom: 7rem;
+  margin-top: 4rem;
+  margin-bottom: 6.2rem;
   display: flex;
   justify-content: space-between;
 }
 
 .about-text {
   margin: auto;
-  font-size: 1.01rem;
   text-align: justify;
 }
 
