@@ -1,7 +1,7 @@
 <template>
   <Layout>
     <section class="about">
-      <div class="about-text">
+      <div>
         <h1 class="title">Hi, I'm Chrissie</h1>
         <p>I'm a front-end web developer from Kigali, Rwanda.</p>
         <p>
@@ -17,9 +17,6 @@
           walks.
         </p>
       </div>
-      <!-- <div class="me">
-        <img src="../favicon.png" alt="Picrew image of Chrissie" />
-      </div> -->
     </section>
   </Layout>
 </template>
@@ -33,20 +30,14 @@ export default {
 </script>
 
 <style>
-.about {
-  margin-top: 4rem;
-  margin-bottom: 6.2rem;
-  display: flex;
-  justify-content: space-between;
-}
-
-.about-text {
-  margin: auto;
+.about div {
+  margin: 0rem auto;
   text-align: justify;
 }
 
 .title {
-  font-size: 2rem;
+  font-size: 2.5rem;
+  font-weight: 500;
 }
 
 img {
