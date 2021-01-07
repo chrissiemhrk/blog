@@ -94,7 +94,7 @@ nav {
 }
 
 footer {
-  margin-top: 2rem;
+  margin-top: 6rem;
 
   font-size: 0.8rem;
 }

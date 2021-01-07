@@ -31,7 +31,7 @@ export default {
 
 <style>
 .about div {
-  margin: 0rem auto;
+  margin: 6.7rem 0rem;
   text-align: justify;
 }
 
