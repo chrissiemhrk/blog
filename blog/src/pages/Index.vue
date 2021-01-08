@@ -1,14 +1,16 @@
 <template>
   <Layout>
     <section class="about">
-      <div>
+      <div class="about-text">
         <h1 class="title">Hi, I'm Chrissie</h1>
-        <p>I'm a front-end web developer from Kigali, Rwanda.</p>
         <p>
-          Currently, I'm part of an incredible team at Hacksplash and learning
-          user interface design. In addition, I'm the co-lead of the Google
-          developer student club (DSC) chapter of my university and working
-          towards a bachelor in software engineering.
+          I'm a front-end web developer from Kigali, Rwanda.
+        </p>
+        <p>
+          Currently, I'm part of an incredible team at Hacksplash as the CTO and
+          learning user interface design. In addition, I'm the co-lead of the
+          Google developer student club (DSC) chapter of my university and
+          working towards a bachelor in software engineering.
         </p>
         <p>
           I love writing and have published articles online on Dev and my
@@ -17,6 +19,7 @@
           walks.
         </p>
       </div>
+      <img src="../favicon.png" alt="Picrew image of Chrissie" />
     </section>
   </Layout>
 </template>
@@ -30,17 +33,25 @@ export default {
 </script>
 
 <style>
-.about div {
-  margin: 6.7rem 0rem;
-  text-align: justify;
+.about {
+  display: flex;
+  justify-content: space-between;
+}
+
+.about-text {
+  font-size: 1.3rem;
+  line-height: 1.8;
 }
 
 .title {
-  font-size: 2.5rem;
-  font-weight: 500;
+  font-size: 3rem;
+  letter-spacing: 0.1rem;
 }
 
 img {
-  width: 22rem;
+  width: 20rem;
+  height: 20rem;
+  margin: auto;
+  display: block;
 }
 </style>

@@ -39,8 +39,7 @@ query Post ($path: String!) {
 <style>
 .article {
   margin: 4rem auto;
-  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
-  font-size: 1.15rem;
+  max-width: 700px;
 }
 
 .article-title {

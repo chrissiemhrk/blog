@@ -50,19 +50,20 @@
 
 <style>
 body {
-  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
   margin: 0;
   padding: 0;
-  line-height: 1.5;
-  font-size: 1rem;
+  line-height: 2;
+  font-size: 1.1rem;
   background-color: #fcfcec;
   color: #222222;
-  border-top: 0.4rem solid #00835c;
-  border-bottom: 0.4rem solid #00835c;
+  border-top: 0.5rem solid #00835c;
+  border-bottom: 0.5rem solid #00835c;
 }
 
 .layout {
-  max-width: 700px;
+  max-width: 800px;
   margin: 0 auto;
   padding-left: 20px;
   padding-right: 20px;
@@ -94,9 +95,8 @@ nav {
 }
 
 footer {
-  margin-top: 6rem;
-
-  font-size: 0.8rem;
+  margin-top: 4.5rem;
+  font-size: 0.9rem;
 }
 
 footer div {

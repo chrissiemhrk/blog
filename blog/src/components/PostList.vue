@@ -30,8 +30,9 @@ export default {
 
 <style scoped="true">
 h1 {
-  font-size: 1.5rem;
+  font-size: 1.8rem;
   margin: 2rem 0;
+  position: sticky;
 }
 
 .post-list {
