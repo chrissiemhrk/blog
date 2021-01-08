@@ -50,12 +50,11 @@
 
 <style>
 body {
-  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
-    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
   margin: 0;
   padding: 0;
-  line-height: 2;
-  font-size: 1.1rem;
+  line-height: 1.7;
+  font-size: 1.2rem;
   background-color: #fcfcec;
   color: #222222;
   border-top: 0.5rem solid #00835c;
@@ -96,7 +95,7 @@ nav {
 
 footer {
   margin-top: 4.5rem;
-  font-size: 0.9rem;
+  font-size: 0.98rem;
 }
 
 footer div {
@@ -106,12 +105,13 @@ footer div {
 
 footer li {
   list-style: none;
-  text-transform: capitalize;
+  text-transform: uppercase;
   margin: 0.2rem;
 }
 
 footer ul {
   display: flex;
+  flex-direction: column;
   justify-content: center;
 }
 

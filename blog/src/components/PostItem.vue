@@ -35,10 +35,6 @@ export default {
   font-size: 0.8rem;
 }
 
-.read {
-  font-size: 1.09rem;
-}
-
 .date {
   margin-right: 10px;
   min-width: 60px;

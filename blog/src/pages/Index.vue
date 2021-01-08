@@ -38,11 +38,6 @@ export default {
   justify-content: space-between;
 }
 
-.about-text {
-  font-size: 1.3rem;
-  line-height: 1.8;
-}
-
 .title {
   font-size: 3rem;
   letter-spacing: 0.1rem;
