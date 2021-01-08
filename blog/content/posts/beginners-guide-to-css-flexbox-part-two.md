@@ -1,6 +1,6 @@
 ---
 title: Beginners guide to css flexbox - part two
-date: 2020-09-22
+date: 2020-10-22
 ---
 
 In the first part, I wrote about flexbox properties that affected the flex container. In this second part, I'll be giving you flexbox properties that affect the flex items along with how they work.
