@@ -7,10 +7,10 @@
           I'm a front-end web developer from Kigali, Rwanda.
         </p>
         <p>
-          Currently, I'm part of an incredible team at Hacksplash as the CTO and
-          learning user interface design. In addition, I'm the co-lead of the
-          Google developer student club (DSC) chapter of my university and
-          working towards a bachelor in software engineering.
+          Currently, I'm part of an incredible team at Hacksplash and learning
+          user interface design. In addition, I'm the co-lead of the Google
+          developer student club (DSC) chapter of my university and working
+          towards a bachelor in software engineering.
         </p>
         <p>
           I love writing and have published articles online on Dev and my
