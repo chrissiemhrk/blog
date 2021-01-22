@@ -127,6 +127,7 @@ nav {
   display: flex;
   justify-content: space-between;
   width: -moz-available;
+  width: -webkit-fill-available;
 }
 
 .nav-item {
