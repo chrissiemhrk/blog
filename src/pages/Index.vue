@@ -29,6 +29,15 @@ export default {
   metaInfo: {
     title: "About",
   },
+  meta: [
+    { name: "twitter:card", content: "summary_large_image" },
+    {
+      name: "twitter:creator",
+      content: this.$page.author.twitter,
+    },
+    { name: "twitter:title", content: this.$page.title },
+    { name: "twitter:description", content: this.$page.description },
+  ],
 };
 </script>
 

@@ -8,6 +8,11 @@ module.exports = {
   siteName: "Chrissie Muhorakeye",
   siteDescription:
     "Front-end web developer and user interface designer writing about front-end development, accessibility, UI design, and more.",
+  siteUrl: "https:/www.chrissie.netlify.app/",
+  metadata: {
+    author: "Chrissie Muhorakeye",
+    twitter: "@chrissiemhrk",
+  },
   plugins: [
     {
       use: "@gridsome/source-filesystem",
