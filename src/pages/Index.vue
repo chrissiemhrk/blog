@@ -33,10 +33,14 @@ export default {
     { name: "twitter:card", content: "summary_large_image" },
     {
       name: "twitter:creator",
-      content: this.$page.author.twitter,
+      content: "@chrissiemhrk",
     },
-    { name: "twitter:title", content: this.$page.title },
-    { name: "twitter:description", content: this.$page.description },
+    { name: "twitter:title", content: "Chrissie Muhorakeye" },
+    {
+      name: "twitter:description",
+      content:
+        "Front-end web developer and user interface designer writing about front-end development, accessibility, UI design, and more.",
+    },
   ],
 };
 </script>
