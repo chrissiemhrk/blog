@@ -5,6 +5,7 @@
         <ul class="nav-items">
           <router-link to="/" class="nav-item">About</router-link>
           <router-link to="/writing" class="nav-item">Writing</router-link>
+          <router-link to="/snippets" class="nav-item">Snippets</router-link>
         </ul>
         <ul class="social-media-items">
           <li>
@@ -93,14 +94,17 @@
 </template>
 
 <style>
+@import url("https://fonts.googleapis.com/css2?family=Oswald:wght@300&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Nunito+Sans&display=swap");
 body {
-  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-family: "Nunito Sans", sans-serif;
   margin: 0;
   padding: 0;
-  line-height: 1.7;
-  font-size: 1.1rem;
+  line-height: 1.6;
+  letter-spacing: 0.1rem;
+  font-size: 1rem;
   background-color: #fcfcec;
-  color: #222222;
+  color: #000;
 }
 
 .layout {
@@ -128,15 +132,20 @@ nav {
   justify-content: space-between;
   width: -moz-available;
   width: -webkit-fill-available;
+  font-family: "Oswald", sans-serif;
+  letter-spacing: 0.12rem;
 }
 
 .nav-item {
   text-decoration: none;
   text-transform: uppercase;
+  margin-right: 1.5rem;
+  letter-spacing: 0.1rem;
+  font-weight: 500;
 }
 
-.nav-item:first-child {
-  margin-right: 1.5rem;
+.nav-item:last-child {
+  margin-right: 0rem;
 }
 
 .social-media-item {
@@ -154,11 +163,13 @@ nav {
 }
 
 footer {
-  margin-top: 4.5rem;
   font-size: 0.8rem;
   display: flex;
   justify-content: space-between;
   align-items: center;
+  font-family: "Oswald", sans-serif;
+  letter-spacing: 0.12rem;
+  margin-top: 7rem;
 }
 
 footer p {

@@ -90,13 +90,58 @@ query Post ($path: String!) {
 }
 
 .article pre {
-  background-color: #dadada;
+  background: #111;
   border-radius: 10px;
+  color: #fafafa;
 }
 
 .article code {
-  background-color: #dadada;
+  background: #111;
   border-radius: 10px;
   text-shadow: none;
+  color: #fafafa;
+}
+:not(pre) > code[class*="language-"],
+pre[class*="language-"] {
+  background: #111;
+}
+
+.token.atrule,
+.token.attr-value,
+.token.keyword,
+.token.number,
+.token.property,
+.token.atrule,
+.token.attr-value,
+.token.keyword {
+  color: #eeeeee;
+}
+
+.token.selector,
+.token.attr-name,
+.token.string,
+.token.char,
+.token.builtin,
+.token.inserted,
+.token.attr-equals {
+  color: #f6ff77;
+}
+
+.token.tag,
+.token.boolean,
+.token.constant,
+.token.symbol,
+.token.punctuation,
+.token.deleted {
+  color: #ff9100;
+}
+
+.token.operator,
+.token.entity,
+.token.url,
+.language-css .token.string,
+.style .token.string {
+  color: #9a6e3a;
+  background: none;
 }
 </style>

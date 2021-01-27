@@ -36,11 +36,13 @@ export default {
 .about {
   display: flex;
   justify-content: space-between;
+  text-align: justify;
 }
 
 .title {
   font-size: 3rem;
   letter-spacing: 0.1rem;
+  font-weight: 600;
 }
 
 img {
