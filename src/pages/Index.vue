@@ -51,4 +51,19 @@ img {
   margin: auto;
   display: block;
 }
+
+@media (max-width: 999px) {
+  .about {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .about-text {
+    order: 1;
+  }
+
+  .title {
+    font-size: 2.2rem;
+  }
+}
 </style>
