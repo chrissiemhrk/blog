@@ -100,7 +100,7 @@ body {
   font-family: "Nunito Sans", sans-serif;
   margin: 0;
   padding: 0;
-  line-height: 1.6;
+  line-height: 1.8;
   letter-spacing: 0.1rem;
   font-size: 1rem;
   background-color: #fcfcec;
@@ -117,6 +117,10 @@ body {
 ul {
   margin: 0;
   padding: 0;
+}
+
+li {
+  margin-bottom: 0.8rem;
 }
 
 header {
