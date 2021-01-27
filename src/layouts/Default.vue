@@ -100,7 +100,7 @@ body {
   font-family: "Nunito Sans", sans-serif;
   margin: 0;
   padding: 0;
-  line-height: 1.8;
+  line-height: 1.7;
   letter-spacing: 0.1rem;
   font-size: 1rem;
   background-color: #fcfcec;
@@ -173,7 +173,7 @@ footer {
   align-items: center;
   font-family: "Oswald", sans-serif;
   letter-spacing: 0.12rem;
-  margin-top: 7rem;
+  margin-top: 5.2rem;
 }
 
 footer p {
