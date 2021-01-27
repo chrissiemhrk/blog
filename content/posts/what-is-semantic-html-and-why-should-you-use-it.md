@@ -87,7 +87,7 @@ These are elements that are used to organize blocks of content, these are import
 
 - `<figure>` represents content such as illustrations, diagrams, etc.
 
-- `<figcaption>` represents the caption for a <figure> element.
+- `<figcaption>` represents the caption for a `<figure>` element.
 
 - `<cite>` represents the reference of a cited work.
 
