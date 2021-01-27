@@ -1,7 +1,7 @@
 <template>
   <Layout>
     <section class="snippets">
-      <h1>Comming soon</h1>
+      <h1>Coming soon</h1>
     </section>
   </Layout>
 </template>
