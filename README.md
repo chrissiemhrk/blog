@@ -2,7 +2,7 @@
 
 A simple blog made with gridsome and graphQL. 
 
-I used Alex Brown's starter template for creating a minimal blog with Markdown
+I used [Alex Brown's](https://github.com/alexbrown) starter template for creating a minimal blog with Markdown
 
 ### Usage
 1. `gridsome create my-gridsome-site alexbrown/gridsome-starter-minimal-blog` to create a gridsome project with the starter template
